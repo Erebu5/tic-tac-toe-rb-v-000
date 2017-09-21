@@ -124,7 +124,7 @@ end
 
 #OVER?: RETURNS IF GAME IS OVER
 def over?(board)
-  if draw?(board) == true || full?(board) == true || won?(board) == true
+  if draw?(board) == true || full?(board) == true || won?(board)
     return true
   else
    return false
